@@ -32,6 +32,9 @@ const app = new Vue({
                         }
             });
 
+            console.log(this.dSongsList);
+            this.dSongsList.sort((a, b) => a.year - b.year);
+            console.log(this.dSongsList);
         }
     },
 
